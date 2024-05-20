@@ -11,4 +11,4 @@ jobs:
         java-version: 11
     - uses: gradle/gradle-build-action@v2
       with:
-        arguments: resolveConfigurations --continue --info
+        arguments: resolveConfigurations --continue --info --scan
