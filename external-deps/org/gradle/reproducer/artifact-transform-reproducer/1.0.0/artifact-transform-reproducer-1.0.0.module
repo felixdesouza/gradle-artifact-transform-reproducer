@@ -1,0 +1,35 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.gradle.reproducer",
+    "module": "artifact-transform-reproducer",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "untransformed",
+      "attributes": {
+        "org.gradle.usage": "untransformed-attribute"
+      },
+      "files": [
+        {
+          "name": "untransformed.txt",
+          "url": "untransformed.txt",
+          "size": 70,
+          "sha512": "e3218ffbffbbf7d025f5b7a87f36c3ea66b2b83e976d40f97c72a3199d93a14521c0c1ce473a26067ae82d8cf2b62207a7c10fbd969e5dc0aca2d42c56bc96e2",
+          "sha256": "c7be76d3a4306d8abc4d0d7e342bf659fc7684aaf96e02b0e60e98842f362749",
+          "sha1": "75abb1230191b4bf0043493c45973a36f9f3eaea",
+          "md5": "90f4d23454d970c09b42889b975f6c4e"
+        }
+      ]
+    }
+  ]
+}
